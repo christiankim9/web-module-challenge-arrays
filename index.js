@@ -147,6 +147,7 @@ Use the removeFlavorByName function below to do the following:
 
 function removeFlavorByName(list, flavor){
   
+  
   for (let i = 0; i < list.length; i++) {
     if (list[i] === flavor) {
       list.splice(i, 1);
